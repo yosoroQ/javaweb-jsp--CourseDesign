@@ -1,0 +1,85 @@
+.header{   /*顶栏header样式*/
+  width: 100%;           /*顶栏宽度*/
+  height: 100px;         /*顶栏高度*/
+  background-color: rgb(96,125,139);     /*顶栏颜色*/
+  position: relative;   /*相对定位*/
+}
+
+.container{     /*顶栏布局容器*//*这里指logo*//*去掉就没了*/
+  width: 1150px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.header .logo{     /*顶栏logo布局*/
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.logo a{       /*顶栏a标签里的内容*/
+  display: block;
+  width: 100px;  /*为什么？*/
+                    /*  height: 5px;*/
+}
+
+.header .list{    /*ul class="list"里的内容*/
+  float: left;
+  width: 820px;
+  height: 88px;
+  padding: 12px 0 0 30px;
+}
+
+
+a{        /*顶栏a标签里的内容*/
+  text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-weight:bold;
+   font-family:"微软雅黑";         /*顶栏字体*/
+}
+
+.header li{     /*顶栏li标签里的内容*/
+  float: left;
+  list-style: none;
+}
+
+.list li{      /*顶栏li标签里的内容*/
+  padding: 28px 10px 38px ;
+  display: block;
+  color: rgb(68, 57, 5);
+}
+
+
+ /*以下全是顶栏搜索框*/
+
+ .search{
+  float: right;
+  width: 296px;
+  margin-top: 10px;
+  position: absolute;
+  top: 28px;
+  right: 53px;
+}
+
+.search form{
+  height: 50px;
+  width: 296px;
+} 
+
+.content1{                 /*顶栏搜索框*/
+   display: block;
+  width: 223px;
+  height: 30px;
+  border: 1px solid #e0e0e0;
+  padding: 0 10px;
+  float:right;
+  
+}
+
+.search1{
+  width: 49px;           /*顶栏搜索框*/
+  height: 30px;
+  float: right;
+} 
+
+

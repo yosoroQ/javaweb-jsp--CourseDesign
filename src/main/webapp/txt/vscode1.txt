@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style1.css">    <!--引入css-->
+  <title>寸金小书屋</title>
+</head>
+<body>
+  <div class="header">
+      <div class="container">
+          <div class="logo">
+              <a href="index.jsp">
+                  <img src="image/教书.png" width="95" alt="寸金小书屋">
+              </a>
+          </div>
+          <ul class="list">
+             <li>
+                  <a href="index.jsp">欢迎页</a>
+              </li>
+              <li>
+                  <a href="index2.jsp">浏览图书</a>
+              </li>
+ 
+              <li>
+                  <a href="index4-register.jsp">注册</a>
+              </li>
+              <li>
+                  <a href="index5-login.jsp">登录</a>
+              </li>
+              <li>
+                  <a href="index3-about.jsp">关于网站</a>
+              </li>
+              <li>
+                  <a href="searchMobile.jsp">查询图书</a>
+              </li>
+              <li>
+                  <a href="lookShoppingCar.jsp">查看购物车</a>
+              </li>
+              <li>
+                  <a href="lookOrderForm.jsp">查看订单</a>
+              </li>
+              <li>
+                  <a href="exitServlet">退出</a>
+              </li>
+          </ul>
+          <div class="search">
+              <form >
+                   <input type="submit" value="搜索" class="search1">
+                  <input type="text"  value="装饰来着，暂时无法实现" class="content1">
+                 
+              </form>
+  </div>
+      </div>
+
+  </div>
+</body>
+</html>

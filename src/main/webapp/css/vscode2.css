@@ -1,0 +1,130 @@
+html {      /*不能删*/ /*重要*/
+    position: relative;
+    overflow: hidden !important;
+  }
+  
+body {   /*body部分，定义字体*/
+    font-family: 'Quicksand', sans-serif;
+    padding:0;
+    margin:0;
+
+  }
+  
+
+.background{      /*定义背景图片*/
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url("1.jpg");
+    position: absolute;
+    z-index: -5;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo1{   /*logo1部分(整体)*/
+
+    margin: auto;
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+    /*background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #ffffff;
+    */
+}
+.logo2{    /*logo2部分——“寸金小书屋”*/
+    width: 180px;
+    height: 180px;
+    margin: 5px 5px;
+    border-radius: 50%;
+    transition: all 1s;
+
+}
+
+
+/*logo2部分——“寸金小书屋”*/
+.name{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: break;
+    font-weight: 500;
+}
+
+/*签名部分——“书是人类进步的阶梯！”*/
+.slogan{
+    margin: auto;
+    width: 600px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*签名部分——“书是人类进步的阶梯！”*/
+.slogan2{
+    text-align: center;
+    color: rgb(0,0,0);
+    font-size: 16px;
+    max-width: 500px;
+}
+
+/*按钮部分*/
+.buttons{
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1{   /*按钮部分*/
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: break;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+
+/*底栏部分*/
+.footer{
+    position: absolute;
+     background-color: rgb(96,125,139);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+
+}
+
+/*底栏文字部分*/
+.footer2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+      font-size: 20px;
+
+}
+
+/*a标签部分*/
+a{
+    color: rgba(255, 255, 255, 0.8);
+}
+

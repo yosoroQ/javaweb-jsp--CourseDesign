@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="zh-ch">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/vscode2.css">   <!-- 引入css样式表 -->
+    <title>寸金小书屋</title>
+</head>
+<body>
+
+       <!-- 中间内容 --><!-- ↓↓↓↓↓↓↓↓ -->
+       
+            <div class="logo1">
+
+            </div>
+            <p class="name">寸金小书屋</p>   
+            
+            <div class="slogan" id="slogan">
+                <p class="slogan2" id="slogan2">书是人类进步的阶梯！</p>   
+            </div>
+            <div class="buttons">
+                <button class="button1" onclick="window.location.href='index3-about.jsp'">关于网站</button>  
+                <button class="button1" onclick="window.location.href='index2.jsp'">进入书屋</button>
+            </div>
+  
+  
+       <!-- 底栏 --><!-- ↓↓↓↓↓↓↓↓ -->
+       
+            <footer class="footer">
+                <p class="footer2">作者：<a target="_blank" href="https://www.mxzfun.com" >19信管2班</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <div class="background" id="background"></div>
+    <div class="background2" id="background2"></div>
+    </body>
+</html>

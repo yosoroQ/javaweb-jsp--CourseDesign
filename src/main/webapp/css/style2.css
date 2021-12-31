@@ -1,0 +1,43 @@
+
+/*style2是“关于网站的样式表*/
+
+body{   /*body部分*/
+	background: #eeeeee;
+}
+
+.content{
+	width: 1500px;        /*文本栏宽度*/
+	background-color: white;
+	display: inline-block;
+
+}
+
+
+/*以下是关于正文的*/
+.part:hover{
+	background: #eeeeee;
+	cursor: pointer;
+}
+.part4{
+	border: none;
+}
+.text{
+	line-height: 30px;
+	width: 80%;
+	margin: 25px auto;
+	height: auto;
+	min-height: 500px;
+}
+.container2,.container4{
+	background: #e5e5e5;
+}
+.title{
+	line-height: 40px;
+}
+.container2,.container4{
+	overflow: hidden;
+}
+
+
+
+
